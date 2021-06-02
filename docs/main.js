@@ -1,4 +1,4 @@
-window.AudioContext = window.AudioContext || window.webkitAudioContext();
+window.AudioContext = window.AudioContext || window.webkitAudioContext;
 const ctx = new AudioContext();
 let oscillator;
 // isPlaying is True when sound play
